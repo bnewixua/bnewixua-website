@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    background-color: #202020;
+    padding: 30px;
+}
+
+body .container{
+    max-width: 1000px;
+}
+
+body .container header{
+    background: url(image/arkaplan.jpg) center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100px;
+    padding: 20px 50px 60px;
+    border-radius: 16px;
+}
+
+body .container header .info{
+    text-align: center;
+}
+
+body .container header .info .title{
+    margin: 20px 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+body .container header .info .subtitle{
+    min-width: 70%;
+    margin: 0 auto 20px;
+    font-size: 1rem;
+}
+
+body article h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    text-align: center;
+    
+}
+
+body article{
+    margin-top: 50px;
+}
+
+body article p{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: #999;
+    font-size: 1.1rem;
+}
+
+.features {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.features .card{
+    background-color: #27272a;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.features .card:hover{
+    background-color: #323232;
+    border-color: #fff;
+}
+
+.features .card a{
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+body .container h1 span{
+    color: rgb(223, 190, 3);
+}
+
+
+footer{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1000px repeat(1, 3fr);
+    gap: 2rem;
+}
+
+.copyright{
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    color: #fff;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.copyright a{
+    color: #ffff00
+}
+
+body article{
+    margin-top: 50px;
+}
+
+body article p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #999;
+    font-size: 1.1rem;
+}
